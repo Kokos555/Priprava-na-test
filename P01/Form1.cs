@@ -109,6 +109,7 @@ namespace P01
 
         private void button2_Click(object sender, EventArgs e)
         {
+            listBox1.Items.Clear();
             int max = Int32.MinValue;
             Random rnd = new Random();
             int cislo = Convert.ToInt32(textBox1.Lines[2]);
